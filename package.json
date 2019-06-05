@@ -2,7 +2,7 @@
   "name": "babel-tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node src/index.js",
@@ -25,6 +25,7 @@
     "@babel/core": "^7.0.0-rc.1",
     "@babel/node": "^7.0.0-rc.1",
     "@babel/preset-env": "^7.0.0-rc.1",
+    "@babel/register": "^7.4.4",
     "nodemon": "^1.18.3"
   }
 }
