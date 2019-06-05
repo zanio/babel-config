@@ -1,0 +1,1 @@
+{"processes":{"2cabf860-559c-428d-9615-87be9fd68653":{"parent":null,"children":["6e14a164-e130-42ec-a508-c24b49f45976"]},"6e14a164-e130-42ec-a508-c24b49f45976":{"parent":"2cabf860-559c-428d-9615-87be9fd68653","children":[]}},"files":{"C:\\Users\\Amazen Interieurs\\OneDrive\\Documents\\ani\\babel-tutorial\\src\\test.js":["6e14a164-e130-42ec-a508-c24b49f45976"]},"externalIds":{}}

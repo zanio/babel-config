@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha --require @babel/register --require @babel/polyfill test/*.js --exit",
+    "test": "nyc --reporter=html --reporter=text mocha --require @babel/register --require @babel/polyfill test/*.js --exit",
     "start": "nodemon --exec babel-node src/index.js",
     "build": "babel src --out-dir dist",
     "serve": "node dist/server.js"
@@ -24,7 +24,9 @@
     "url": "https://github.com/zanio/babel-config/issues"
   },
   "homepage": "https://github.com/zanio/babel-config#readme",
-  "dependencies": {},
+  "dependencies": {
+    "nyc": "^14.1.1"
+  },
   "devDependencies": {
     "@babel/cli": "^7.0.0-rc.1",
     "@babel/core": "^7.0.0-rc.1",
