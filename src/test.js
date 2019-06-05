@@ -1,5 +1,8 @@
 const name ={
-    name:'goat'
+    name:'goat',
+    sound:'class'
 }
 
-export {name}
+export const sayHello = 'say hello'
+
+export default name
