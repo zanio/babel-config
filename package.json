@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha --require @babel/register --require @babel/polyfill test/*.js --exit",
+    "coverage": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "start": "nodemon --exec babel-node src/index.js",
     "build": "babel src --out-dir dist",
     "serve": "node dist/server.js"
@@ -36,6 +37,7 @@
     "@babel/register": "^7.4.4",
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
     "mocha": "^6.1.4",
     "nodemon": "^1.18.3"
   }
