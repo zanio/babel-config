@@ -1,6 +1,7 @@
 const name ={
 	name:'goat',
-	sound:'class'
+	sound:'class',
+	man:'ddffdf'
 };
 
 export const sayHello = 'say hello';
